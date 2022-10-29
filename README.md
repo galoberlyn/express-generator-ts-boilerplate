@@ -9,11 +9,23 @@ A node.js boiler plate that uses [express-generator](https://expressjs.com/en/st
 The main difference of this package to the others is that this uses a fresh install for express-generator without dependencies
 
 ## Installation
-clone this repo
+clone this repo and use as you please
 
 ```bash
-  npx express-generator-ts-boilerplate
+  cd express-generator-ts-boilerplate
+  rm -rf .git
 ```
+change to your project name
+```
+  cd ../
+  mv express-generator-ts-boilerplate [your project name]
+```
+
+
+## Optimizations
+
+Future optimizations will include cli to not have to rely on deleting the .git directory
+
 ## Documentation
 
 [Documentation](https://expressjs.com/)
