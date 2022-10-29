@@ -12,7 +12,7 @@ The main difference of this package to the others is that this uses a fresh inst
 clone this repo
 
 ```bash
-  npx expressjs-typescript
+  npx express-generator-ts-boilerplate
 ```
 ## Documentation
 

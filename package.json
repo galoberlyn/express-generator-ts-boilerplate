@@ -1,7 +1,6 @@
 {
-  "name": "cms-service",
-  "version": "0.0.0",
-  "private": true,
+  "name": "express-generator-ts-boilerplate",
+  "version": "0.0.1",
   "scripts": {
     "start": "node ./dist/bin/www",
     "dev": "nodemon ./bin/www.ts",
