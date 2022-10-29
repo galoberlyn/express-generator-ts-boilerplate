@@ -1,5 +1,5 @@
 {
-  "name": "express-generator-ts-boilerplate",
+  "name": "expressjs-generator-ts-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "start": "node ./dist/bin/www",
