@@ -2,11 +2,13 @@ import express from 'express';
 import cookieParser from 'cookie-parser';
 import path from 'path';
 import logger from 'morgan';
+import cors from 'cors';
 
-var indexRouter = require('./routes/index');
+const indexRouter = require('./routes/index');
 
-var app = express();
+const app = express();
 
+app.use(cors({ origin: '*'})); // change as preffered, wildcard not for production!
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));

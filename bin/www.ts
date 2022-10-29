@@ -6,9 +6,9 @@
 
 import app from '../app';
 import http from 'http';
+import * as dotenv from 'dotenv';
 
-const debug = require('debug')('cms-service:server');
-
+dotenv.config()
 
 /**
  * Get port from environment and store in Express.
@@ -88,5 +88,7 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  if (process.env.APP_ENV === 'development') {
+    console.info('Listening to '+ bind);
+  }
 }
