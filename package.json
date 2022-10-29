@@ -1,6 +1,6 @@
 {
   "name": "express-generator-ts-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "scripts": {
     "start": "node ./dist/bin/www",
     "dev": "nodemon ./bin/www.ts",
